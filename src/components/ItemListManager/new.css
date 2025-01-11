@@ -1,0 +1,74 @@
+/* ItemListManager.css */
+.item-list-manager {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+    /* max-width: 400px; */
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #189d41;
+  }
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height:130px;
+    background-color: #313842;
+  }
+  .header img{
+    object-fit: contain;
+    height: 40%;
+    /* height:120px;
+    width:130px; */
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #189d41;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    /* background-color: #0056b3; */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  @media (min-width: 768px) {
+    .item-list-manager {
+        max-width: 70%;
+    }
+   
+  }
+  @media (max-width: 768px) {
+    .item-list-manager {
+        max-width: 100%;
+    }
+  }
