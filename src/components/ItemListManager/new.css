@@ -30,6 +30,7 @@
     padding: 10px 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
@@ -45,8 +46,8 @@
   }
   
   button:hover {
-    /* background-color: #0056b3; */
-  }
+    background-color: #0aab3c; 
+}
   
   ul {
     list-style-type: none;
